@@ -1,1 +1,1 @@
-worker: python PlotBot.ipynb
+worker: python PlotBot.py
