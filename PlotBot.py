@@ -8,10 +8,11 @@
 import tweepy
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import time
 from datetime import datetime
 import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 analyzer = SentimentIntensityAnalyzer()
 
